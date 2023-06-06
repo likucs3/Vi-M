@@ -152,7 +152,7 @@ fun QuickPicks(
                 )
         ) {
             Header(
-                title = "Quick picks",
+                title = "ଶୀଘ୍ର ବାଛି",
                 modifier = Modifier
                     .padding(endPaddingValues)
             )
@@ -248,7 +248,7 @@ fun QuickPicks(
 
                 related.albums?.let { albums ->
                     BasicText(
-                        text = "Related albums",
+                        text = "ସମ୍ବନ୍ଧିତ ଆଲବମ୍",
                         style = typography.m.semiBold,
                         modifier = sectionTextModifier
                     )
@@ -272,7 +272,7 @@ fun QuickPicks(
 
                 related.artists?.let { artists ->
                     BasicText(
-                        text = "Similar artists",
+                        text = "ସେହିଭଳି କଳାକାରମାନେ",
                         style = typography.m.semiBold,
                         modifier = sectionTextModifier
                     )
@@ -296,7 +296,7 @@ fun QuickPicks(
 
                 related.playlists?.let { playlists ->
                     BasicText(
-                        text = "Playlists you might like",
+                        text = "ଆପଣ ପସନ୍ଦ କରୁଥିବା ପ୍ଲେଲିଷ୍ଟଗୁଡିକ",
                         style = typography.m.semiBold,
                         modifier = Modifier
                             .padding(horizontal = 16.dp)
@@ -323,7 +323,7 @@ fun QuickPicks(
                 Unit
             } ?: relatedPageResult?.exceptionOrNull()?.let {
                 BasicText(
-                    text = "An error has occurred",
+                    text = "ଏକ ତ୍ରୁଟି ଘଟିଛି",
                     style = typography.s.secondary.center,
                     modifier = Modifier
                         .align(Alignment.CenterHorizontally)
