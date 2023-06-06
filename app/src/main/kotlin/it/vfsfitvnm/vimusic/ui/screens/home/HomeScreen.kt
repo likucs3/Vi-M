@@ -119,11 +119,11 @@ fun HomeScreen(onPlaylistUrl: (String) -> Unit) {
                 tabIndex = tabIndex,
                 onTabChanged = onTabChanged,
                 tabColumnContent = { Item ->
-                    Item(0, "Quick picks", R.drawable.sparkles)
-                    Item(1, "Songs", R.drawable.musical_notes)
-                    Item(2, "Playlists", R.drawable.playlist)
-                    Item(3, "Artists", R.drawable.person)
-                    Item(4, "Albums", R.drawable.disc)
+                    Item(0, "ଶୀଘ୍ର ବାଛି", R.drawable.sparkles)
+                    Item(1, "ସଙ୍ଗୀତ", R.drawable.musical_notes)
+                    Item(2, "ପ୍ଲେଲିଷ୍ଟଗୁଡିକ", R.drawable.playlist)
+                    Item(3, "କଳାକାରମାନେ", R.drawable.person)
+                    Item(4, "ଆଲବମ୍", R.drawable.disc)
                 }
             ) { currentTabIndex ->
                 saveableStateHolder.SaveableStateProvider(key = currentTabIndex) {
