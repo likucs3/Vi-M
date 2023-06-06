@@ -55,36 +55,30 @@ fun About() {
         )
         
         SettingsEntry(
-
             title = "Instagram",
-
             text = "Click Here",
-
             onClick = {
-
                 uriHandler.openUri("https://instagram.com/liku__cs")
-
             }
-
         )
 
         SettingsGroupSpacer()
 
-        SettingsEntryGroupText(title = "TROUBLESHOOTING")
+        SettingsEntryGroupText(title = "ସମସ୍ୟା ନିବାଋଣ")
 
         SettingsEntry(
             title = "Report an issue",
-            text = "You will be redirected to GitHub",
+            text = "You will be redirected to Liku Cs Telegram",
             onClick = {
-                uriHandler.openUri("https://github.com/vfsfitvnm/ViMusic/issues/new?assignees=&labels=bug&template=bug_report.yaml")
+                uriHandler.openUri("https://t.me/iAmLiKu1")
             }
         )
 
         SettingsEntry(
             title = "Request a feature or suggest an idea",
-            text = "You will be redirected to GitHub",
+            text = "You will be redirected to Telegram",
             onClick = {
-                uriHandler.openUri("https://github.com/vfsfitvnm/ViMusic/issues/new?assignees=&labels=enhancement&template=feature_request.yaml")
+                uriHandler.openUri("https://t.me/iAmLiKu1")
             }
         )
     }
