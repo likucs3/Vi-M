@@ -37,9 +37,9 @@ fun About() {
                     .asPaddingValues()
             )
     ) {
-        Header(title = "About") {
+        Header(title = "ମୋ ବିଷୟରେ") {
             BasicText(
-                text = "v${BuildConfig.VERSION_NAME} by vfsfitvnm",
+                text = "v${BuildConfig.VERSION_NAME} by Liku Cs",
                 style = typography.s.secondary
             )
         }
@@ -52,6 +52,20 @@ fun About() {
             onClick = {
                 uriHandler.openUri("https://github.com/vfsfitvnm/ViMusic")
             }
+        )
+        
+        SettingsEntry(
+
+            title = "Instagram",
+
+            text = "Click Here",
+
+            onClick = {
+
+                uriHandler.openUri("https://instagram.com/liku__cs")
+
+            }
+
         )
 
         SettingsGroupSpacer()
